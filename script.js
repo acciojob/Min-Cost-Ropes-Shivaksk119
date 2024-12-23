@@ -7,7 +7,7 @@ function mincost(arr)
 	  let n2 = arr.shift();
 	  let sum = n1+n2;
 	  cost += sum;
-	  console.log(n1,n2,sum,cost)
+	  //console.log(n1,n2,sum,cost)
 	  arr.push(sum);
 	  insertAtOrder(sum,arr);
 	}
