@@ -10,7 +10,7 @@ function mincost(arr)
 		lengthOfRope = lengthOfRope+arr[i];
 		minCost = minCost + lengthOfRope;
 	}
-	retrun minCost;
+	return minCost;
   
 }
 
