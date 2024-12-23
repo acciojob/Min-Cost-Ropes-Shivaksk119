@@ -1,4 +1,5 @@
-function mincost(arr) { 
+function mincost(arr)
+{ 
 //write your code here
 // return the min cost
 	arr.sort();
@@ -20,7 +21,7 @@ function mincost(arr) {
 	}
 	
 	cost = cost+lor1+lor2;
-	return cost;
+  return cost;
 }
 
 module.exports=mincost;
